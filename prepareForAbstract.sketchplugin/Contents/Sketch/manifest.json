@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Prepare for Abstract",
+      "identifier": "com.kevingutowski.prepareforabstract",
+      "script": "__my-command.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "com.kevingutowski.prepareforabstract"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "prepare-for-abstract",
+  "identifier": "prepare-for-abstract",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Kevin Gutowski",
+  "authorEmail": "kskiviolin@gmail.com"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Prepare for Abstract",
+      "identifier": "com.kevingutowski.prepareforabstract",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "com.kevingutowski.prepareforabstract"
+    ]
+  }
+}
